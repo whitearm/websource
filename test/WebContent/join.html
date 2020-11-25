@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <<form action = "register.jsp" method = "post">
+        <fieldset>
+            <legend>필수 사항</legend>
+            <div>
+            	<input type="hidden" name="age" value="3"/>
+            </div>
+            <ul>
+                <li>
+                    <label for="">이름</label>
+                    <input type="text" name="name" id="name" />
+                </li>
+            </ul>
+            <ul>
+                <li>
+                    <label for="">이메일</label>
+                    <input type="email" size="30" />
+                </li>
+            </ul>
+            <ul>
+                <li>
+                    <label for="">비밀번호</label>
+                    <input type="password" size="30" />
+                </li>
+            </ul>
+        </fieldset>
+    
+    
+   
+    <fieldset>
+   <legend>부가 입력 사항</legend>
+   <div>&nbsp;</div>
+   <div>
+    거주지를 선택해 주세요
+   </div>
+   <div>
+    <select name ="" id="">
+        <option value="bmw"selected>서울시</option>
+        <option value="benz">성남시</option>
+        <option value="HYUNDAI">시울서</option>
+        <option value="kia">시남성</option>
+    </select>
+    </div>    
+    <div>&nbsp;</div>
+    <div>
+        <label for=""></label>취미
+        독서 <input type="checkbox" name="hobby" id="" >
+        여행 <input type="checkbox" name="hobby" id="" >
+        영화감상 <input type="checkbox" name="hobby" id="" >
+        
+    </div>
+    <div>&nbsp;</div>
+    <div>
+        <label for="">성별</label> 
+        남성 <input type="radio" name="gender" id="">
+        여성 <input type="radio" name="gender" id="">
+    </div>
+    <div>&nbsp;</div>
+    사진을 등록해 주세요
+        <input type="file" name="" id="">
+        <div>&nbsp;</div>
+    
+    <div>방문 경로를 말씀해 주세요</div>
+    <div>
+        <textarea name="msg" id="" cols="30" rows="10">
+           
+        </textarea>
+    </div>
+       
+    </fieldset>
+    <div>&nbsp;</div>
+    <input type="button" value="회원가입">
+    <input type="reset" value="재작성">
+    <input type="submit" value="전송">
+    </form>
+</body>
+</html>
